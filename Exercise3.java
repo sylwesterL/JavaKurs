@@ -39,9 +39,9 @@ public class Exercise3 {
         sudokuBoard[8][5] = 6;
         sudokuBoard[8][8] = 8;
 
-        for (int i = 0; i <= 8; i++) {
-            for (int j = 0; j <= 8; j++) {
-                System.out.print(sudokuBoard[i][j]);
+        for (int row = 0; row < 9; row++) {
+            for (int col = 0; col < 9; col++) {
+                System.out.print(sudokuBoard[row][col]);
                 System.out.print("\t");
             }
             System.out.println(System.lineSeparator());
